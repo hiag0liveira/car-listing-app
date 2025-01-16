@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
+import { SafeAreaView } from 'react-native';
 
-export const Container = styled.ScrollView`
+export const Container = styled(SafeAreaView)`
   flex: 1;
   background-color:#1C1C1C;
 `;

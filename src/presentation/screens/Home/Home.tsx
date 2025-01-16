@@ -97,7 +97,7 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <StatusBar barStyle="dark-content" backgroundColor="#1C1C1C" />
+      <StatusBar barStyle="light-content" backgroundColor="#007ACC" />
       <Header>
         <Title>Bem-vindo, {userName}!</Title>
         <TouchableOpacity onPress={handleExitApp}>

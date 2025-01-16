@@ -7,8 +7,8 @@ export const Container = styled(SafeAreaView)`
 `;
 
 export const Header = styled.View`
-  height: 80px;
-  background-color: #F5F5F5;
+  height: 60px;
+  background-color: #007ACC;
   padding: 20px 24px;
   flex-direction: row;
   justify-content: space-between;
@@ -21,7 +21,7 @@ export const LogoutIcon = styled.Image`
 `;
 
 export const Title = styled.Text`
-  color: #1C1C1C;
+  color: #F5F5F5;
   font-size: 18px;
   font-weight: 700;
 `;
@@ -29,8 +29,8 @@ export const Title = styled.Text`
 export const HighlightedTitle = styled.Text`
   color: #F5F5F5;
   text-align: center;
-  font-size: 24px;
-  margin-top: 17px;
+  font-size: 16px;
+  margin-top: 10px;
   font-weight: 700;
 `;
 export const TextContainer = styled.View`
@@ -40,14 +40,13 @@ export const TextContainer = styled.View`
 
 export const Subtitle = styled.Text`
   color: #F5F5F5;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
-  margin-bottom: 10px;
   text-align: center;
 `;
 
 export const CarBox = styled.TouchableOpacity`
-  background-color:#F5F5F5;
+  background-color:#007ACC;
   border-radius: 10px;
   flex-direction: row;
   justify-content: space-between;
@@ -57,7 +56,7 @@ export const CarBox = styled.TouchableOpacity`
 `;
 
 export const CarName = styled.Text`
-  color: #2c2b34;
+  color: #F5F5F5;
   font-size: 16px;
   font-weight: 700;
 `;

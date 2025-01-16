@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.Pressable`
   flex: 1;
-  background-color:#1C1C1C;
+  background-color:#000;
 `;
 
 export const BrandImageStyled = styled.Image`

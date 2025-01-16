@@ -21,8 +21,8 @@ export const Title = styled.Text`
 `;
 
 export const Header = styled.View`
-  height: 80px;
-  background-color: #F5F5F5;
+  height: 60px;
+  background-color: #007ACC;
   padding: 20px 24px;
   flex-direction: row;
   justify-content: space-between;
@@ -35,7 +35,7 @@ export const ArrowLeft = styled.Image`
 `;
 
 export const CarBox = styled.View`
-  background-color: #F5F5F5;
+  background-color: #007ACC;
   border-radius: 10px;
   flex-direction: row;
   justify-content: space-between;
@@ -45,7 +45,7 @@ export const CarBox = styled.View`
 `;
 
 export const CarName = styled.Text`
-  color: #2c2b34;
+  color: #F5F5F5;
   font-size: 16px;
   font-weight: 700;
 `;

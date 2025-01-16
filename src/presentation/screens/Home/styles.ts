@@ -14,7 +14,6 @@ export const Header = styled.View`
   align-items: center;
 `;
 
-
 export const LogoutIcon = styled.Image`
   width: 30px;
   height: 30px;
@@ -62,7 +61,7 @@ export const CarName = styled.Text`
   font-weight: 700;
 `;
 
-export const ChevronRight = styled.Image`
+export const ArrowRight = styled.Image`
   width: 20px;
   height: 20px;
 `;

@@ -10,7 +10,7 @@ import {
   LogoutIcon,
   CarBox,
   CarName,
-  ChevronRight,
+  ArrowRight,
   Container,
   Header,
   Subtitle,
@@ -20,7 +20,7 @@ import {
 } from './styles';
 
 const logoutIcon = require('../../assets/logout.png');
-const chevronRight = require('../../assets/chevron-right.png');
+const arrowRight = require('../../assets/right-arrow.png');
 
 const Home: React.FC = () => {
   const { user } = useContext(UserContext);
@@ -91,7 +91,7 @@ const Home: React.FC = () => {
   const renderItem = ({ item }: { item: GetMarksResponse }) => (
     <CarBox onPress={() => handleSelectModel(item.codigo, item.nome)}>
       <CarName>{item.nome}</CarName>
-      <ChevronRight source={chevronRight} />
+      <ArrowRight source={arrowRight} />
     </CarBox>
   );
 

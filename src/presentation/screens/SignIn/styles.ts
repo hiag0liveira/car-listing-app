@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.Pressable`
   flex: 1;
-  background-color:rgb(0, 0, 0);
+  background-color:#1C1C1C;
 `;
 
 export const BrandImageStyled = styled.Image`
@@ -22,7 +22,7 @@ export const CarImageStyled = styled.Image`
 `;
 
 export const Title = styled.Text`
-  color: #fff;
+  color: #F5F5F5;
   font-size: 20px;
   font-weight: 700;
   text-align: center; 

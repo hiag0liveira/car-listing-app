@@ -41,7 +41,7 @@ const SignIn: React.FC = () => {
 
   return (
     <Container onPress={() => Keyboard.dismiss()}>
-      <StatusBar barStyle="light-content" />
+      <StatusBar barStyle="dark-content" backgroundColor="#1C1C1C" />
       <Title>Bem-vindo ao CarExplorer</Title>
       <Subtitle>"Descubra as melhores marcas e modelos!"</Subtitle>
       <InputContainer>

@@ -33,7 +33,7 @@ export const Subtitle = styled.Text`
   color: #8e8e8e;
   font-size: 17px;
   font-weight: 400;
-  margin-bottom: 10;
+  margin-bottom: 10px;
   text-align: center; 
   padding-left: 12px;
   padding-right: 12px;

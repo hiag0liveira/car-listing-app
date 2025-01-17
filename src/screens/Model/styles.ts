@@ -40,7 +40,7 @@ export const CarBox = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 24px;
+  margin: 10px 24px;
   padding: 16px;
 `;
 

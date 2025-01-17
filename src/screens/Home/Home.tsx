@@ -3,8 +3,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 import { Alert, FlatList, StatusBar, Text, TouchableOpacity } from 'react-native';
 import { UserContext } from '../../context/userContext';
-import { CarsService } from '../../../services/CarsService';
-import { GetMarksResponse } from '../../../services/CarsService/ICarsService';
+import { CarsService } from '../../services/CarsService';
+import { GetMarksResponse } from '../../services/CarsService/ICarsService';
 import { Input } from '../../components';
 import {
   LogoutIcon,

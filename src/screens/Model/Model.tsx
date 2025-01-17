@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { CarBox, CarName, ArrowLeft, Container, Header, TextContainer, Title } from './styles';
 import { FlatList, StatusBar, TouchableOpacity } from 'react-native';
-import { CarsService } from '../../../services/CarsService';
+import { CarsService } from '../../services/CarsService';
 import { useNavigation } from '@react-navigation/native';
-import { GetMarksResponse } from '../../../services/CarsService/ICarsService';
+import { GetMarksResponse } from '../../services/CarsService/ICarsService';
 
 const arrowLeft = require('../../assets/left-arrow.png');
 

@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useForm, Controller } from 'react-hook-form';
 import { SignInFormData } from '../../types/signIn';
-import { SignInService } from '../../../services/SignInService';
+import { SignInService } from '../../services/SignInService';
 import { UserContext } from '../../context/userContext';
 import { Button, Input } from '../../components';
 import {

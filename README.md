@@ -9,6 +9,7 @@ Este aplicativo tem como objetivo exibir uma lista de marcas de carros, permitin
 https://github.com/user-attachments/assets/400bf60b-deec-4787-a6c1-59aeeca1fe6a
 
 </p>
+
 ## 🛠 Tecnologias
 
 - [React Native](https://reactnative.dev/)
@@ -50,5 +51,88 @@ user: teste
 
 senha: 123
 ```
+### 📡 API Endpoints
+
+#### 🔐 Login
+
+- **URL:** `https://test-api-y04b.onrender.com/signIn`
+- **Método:** `POST`
+- **Parâmetros requeridos no body:** `user` e `password`
+
+Exemplo de requisição:
+
+```json
+{
+  "user": "teste",
+  "password": "123"
+}
+```
+
+**Resposta de sucesso:**
+
+```json
+{
+  "token": "seu_token_aqui",
+  "user": {
+    "id": 1,
+    "name": "Usuário Teste"
+  }
+}
+```
+
+Em caso de sucesso, os dados do usuário serão salvos no `Async Storage` e dentro do `Context API`. O usuário será redirecionado para a tela Home.
+
+**Resposta de erro:**
+
+```json
+{
+  "error": "Usuário ou senha incorretos"
+}
+```
+
+Caso ocorra um erro, a mensagem de erro retornada será exibida para o usuário.
+
+#### 🚗 Listagem de marcas de carros
+
+- **URL:** `https://parallelum.com.br/fipe/api/v1/carros/marcas`
+- **Método:** `GET`
+- **Retorno esperado:**
+
+```json
+[
+  {
+    "codigo": "1",
+    "nome": "Chevrolet"
+  },
+  {
+    "codigo": "2",
+    "nome": "Fiat"
+  }
+]
+```
+
+#### 🚙 Listagem de modelos por marca
+
+- **URL:** `https://parallelum.com.br/fipe/api/v1/carros/marcas/{codigo}/modelos`
+- **Exemplo:** `https://parallelum.com.br/fipe/api/v1/carros/marcas/59/modelos`
+- **Método:** `GET`
+- **Retorno esperado:**
+
+```json
+{
+  "modelos": [
+    {
+      "codigo": "1",
+      "nome": "Onix"
+    },
+    {
+      "codigo": "2",
+      "nome": "Cruze"
+    }
+  ]
+}
+```
+
+---
 
 Desenvolvido por [Hiago Oliveira](https://www.linkedin.com/in/hiago-oliveira-520647212/)

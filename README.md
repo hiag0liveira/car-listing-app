@@ -39,9 +39,9 @@ $ npm run start
 Para logar no app usar o seguintes dados:
 
 ```bash
-user: test
+user: teste
 
-senha: 1234
+senha: 123
 ```
 
 Desenvolvido por [Hiago Oliveira](https://www.linkedin.com/in/hiago-oliveira-520647212/)

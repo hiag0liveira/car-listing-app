@@ -2,6 +2,13 @@
 
 Este aplicativo tem como objetivo exibir uma lista de marcas de carros, permitindo que o usuário explore cada marca individualmente e visualize seus respectivos modelos.
 
+# 📱 Demonstração da Aplicação
+
+<p align="center">
+
+https://github.com/user-attachments/assets/400bf60b-deec-4787-a6c1-59aeeca1fe6a
+
+</p>
 ## 🛠 Tecnologias
 
 - [React Native](https://reactnative.dev/)
